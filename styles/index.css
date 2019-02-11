@@ -1,0 +1,149 @@
+html, body{
+
+}
+#contain-all{
+  position: auto;
+}
+
+#nav{
+  width: 100%;
+  float: right;
+  padding: 10px;
+  background-color: #f2f5f9;
+  position: auto;
+  top: 0px;
+  border-bottom: 10px solid black;
+  display: inline;
+}
+
+#description-title {
+  font-family: 'Tisa', sans-serif;
+  font-size: 50px;
+  color: black;
+  font-weight: 50px;
+  padding: 5px;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#title-area {
+    text-align: center;
+}
+
+#title-area h1 {
+    color: black;
+}
+
+#button-area {
+    float: right;
+    display: flex;
+}
+
+#button-area a {
+  font-family: 'Tisa', sans-serif;
+  margin: 50px;
+  margin-top: 10px;
+  color: black;
+  padding: 5px;
+  font-weight: 600;
+}
+
+#button-area a:hover {
+  color: #798dad;
+}
+
+#locations {
+  font-family: 'Tisa', sans-serif;
+  font-size: 20px;
+  color: White;
+  padding-top: 170px;
+  font-weight: 50px;
+  text-align: center;
+}
+
+#things-i-like{
+  font-family: 'Tisa', sans-serif;
+  font-size: 12px;
+  color: White;
+  font-weight: 50px;
+  padding: 5px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#photo-block {
+  background-size: cover;
+  background-position: center top;
+  background-image: url("Hike.jpg");
+  width: auto;
+  min-height: 800px;
+  border-bottom: 10px solid black;
+}
+
+a {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.description{
+  height: auto;
+  position: auto;
+}
+
+#footer-button-area a {
+  font-family: 'Tisa', sans-serif;
+  margin: 65px;
+  margin-top: 10px;
+  color: black;
+  padding: 5px;
+  font-weight: 600;
+  vertical-align: center
+}
+
+#footer-button-area a:hover {
+  color: #798dad;
+}
+
+#footer-button-area{
+  margin-top: 30px;
+  vertical-align: center
+}
+
+#footer{
+  width: 100%;
+  float: right;
+  padding: 10px;
+  min-height: 100px;
+  background-color: #f2f5f9;
+  position: auto;
+  bottom: 0px;
+  display: inline;
+  text-align: center;
+}
+
+#footer-images{
+  display: inline;
+}
+
+#footer-images a{
+  vertical-align: center;
+  margin: 50px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+#Gimg{
+  color: black;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+#Gitimg{
+  color: black;
+  margin-top: 10px;
+  padding: 5px;
+}

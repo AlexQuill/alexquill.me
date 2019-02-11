@@ -1,0 +1,381 @@
+html, body {
+}
+
+#container{
+  position: auto;
+  display: block;
+  margin-top: 0px;
+}
+
+#Header {
+  width: 100%;
+  float: right;
+  padding: 10px;
+  background-color: #f2f5f9;
+  top: 0px;
+  border-bottom: 10px solid black;
+  display: inline;
+}
+
+#Header-title{
+  font-family: 'Tisa', sans-serif;
+  font-size: 50px;
+  color: black;
+  font-weight: 50px;
+  padding: 5px;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#button-area {
+    float: right;
+    display: flex;
+}
+
+#button-area a {
+  font-family: 'Tisa', sans-serif;
+  margin: 50px;
+  margin-top: 10px;
+  color: black;
+  padding: 5px;
+  font-weight: 600;
+  text-decoration: none;
+}
+#button-area a:hover {
+  color: #798dad;
+}
+
+#Basics{
+  font-family: 'Tisa', sans-serif;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  /* margin-top: 0px; */
+}
+
+#me-photo {
+  height: 250px;
+  width: 250px;
+  background-image: url("Me.jpg");
+  background-size: cover;
+  border: 2px solid white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#container-1{
+  position: auto;
+  background-color: #c7cfdb;
+  height: auto;
+  min-width: 800px;
+  display: block;
+  align-content: center;
+}
+
+#educ-container{
+  background-image: url("Baker.jpg");
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.dropdown-container {
+  height: auto;
+  width: 90%;
+  background-color: #f2f5f9 ; // make it a little darker
+  float: left;
+  margin-left: 5%;
+  margin-top: 5%;
+  border: 10px solid black;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.dropdown-container:hover {
+  color: #798dad;
+}
+
+#container-1-box1-starter p:hover{
+  color: #798dad;
+}
+
+.dropdown-slide{
+  display: none;
+}
+
+#academic-container {
+  background-image: url("SHS.jpg");
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+#education-title {
+  font-family: 'Tisa', sans-serif;
+  margin-top: 0px;
+  width: 100%;
+}
+
+#ed-info{
+  font-family: 'Tisa', sans-serif;
+}
+
+#Academics p{
+  font-family: 'Tisa', sans-serif;
+}
+
+#Academics-title{
+  text-align: center;
+  font-family: 'Tisa', sans-serif;
+}
+
+#container-1-box3-starter{
+  width: 90%;
+  height: 100px;
+  background-color: #f2f5f9; // make it a little darker
+  float: left;
+  margin-left: 5%;
+  margin-top: 5%;
+  border: 10px solid black;
+  text-align: center;
+  margin-bottom: 50px;
+  text-align: center;
+  background-image: url("Greenhouse.jpg");
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+#container-1-box3{
+  width: 90%;
+  height: 300px;
+  background-color: #f2f5f9; // make it a little darker
+  float: left;
+  margin-left: 5%;
+  margin-top: 5%;
+  clear: both;
+  border: 10px solid black;
+  margin-bottom: 50px;
+  display: inline-block;
+  background-image: url("Greenhouse.jpg");
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+#Relevant-classes {
+  text-align: center;
+  font-family: 'Tisa', sans-serif;
+  float: left;
+  width: 50%;
+  height: 100%;
+
+}
+
+.class-list{
+  list-style-type: none;
+  font-size: 15px;
+}
+
+.class-list li{
+  font-family: 'Tisa', sans-serif;
+}
+
+#Relevant-skills {
+  text-align: center;
+  align-items: center;
+  font-family: 'Tisa', sans-serif;
+  float: right;
+  width: 50%;
+  height: 100%;
+  max-height: 500px;
+}
+
+.skill-list {
+  list-style-type: none;
+  font-size: 15px;
+}
+
+.skill-list li{
+  font-family: 'Tisa', sans-serif;
+}
+
+
+#container-2{
+  border-top: 10px solid black;
+  background-color: #eaf0f9;
+  height: auto;
+  position: auto;
+  min-width: 800px;
+}
+
+#The-fun-stuff{
+  font-family: 'Tisa', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+#hiking-container{
+  background-image: url("Hike2.jpg");
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+#Hiking{
+  font-family: 'Tisa', sans-serif;
+  text-align: center;
+}
+
+#Hiking h5{
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+#hikes-list{
+  display: inline-block;
+  margin-bottom: 75px;
+  margin-top: 25px;
+}
+
+#hikes-list a{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 50px;
+  font-family: 'Tisa', sans-serif;
+  color: #798dad;
+  text-decoration: none;
+}
+
+#hikes-list a:hover {
+  color: #5f6775;
+}
+
+#climbing-container{
+  background-image: url("JTree.jpg");
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+#Climbing{
+  font-family: 'Tisa', sans-serif;
+  text-align: center;
+}
+
+#Climbing p{
+  padding: 0px;
+}
+
+#climb-list{
+  display: inline-block;
+  padding-top: 0px;
+  margin-top: 25px;
+  margin-bottom: 75px;
+}
+
+#climb-list a{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  font-family: 'Tisa', sans-serif;
+  color: #798dad;
+  text-decoration: none;
+}
+
+#climb-list a:hover {
+  color: #5f6775;
+}
+
+#camp-container{
+  background-image: url("HH.jpg");
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-size:cover;
+  margin-bottom: 50px;
+}
+
+#Double-H{
+  font-family: 'Tisa', sans-serif;
+  text-align: center;
+}
+
+#Double-H p{
+  padding: 0px;
+}
+
+#H-list{
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 75px;
+}
+
+#H-list a{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 50px;
+  font-family: 'Tisa', sans-serif;
+  color: black;
+  text-decoration: none;
+  color: #798dad;
+}
+
+#H-list a:hover {
+  color: #5f6775;
+}
+
+.container-2 p{
+  font-family: 'Tisa', sans-serif;
+  padding-right: 20px;
+}
+
+#footer-button-area{
+  margin-top: 30px;
+  vertical-align: center
+}
+
+#footer{
+  border-top: 10px solid black;
+  width: 100%;
+  float: right;
+  padding: 10px;
+  min-height: 100px;
+  background-color: #f2f5f9;
+  position: auto;
+  bottom: 0px;
+  display: inline;
+  text-align: center;
+}
+
+#footer-images{
+  display: inline;
+}
+
+#footer-images a{
+  vertical-align: center;
+  margin: 50px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+#Gimg{
+  color: black;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+#Gitimg{
+  color: black;
+  margin-top: 10px;
+  padding: 5px;
+}

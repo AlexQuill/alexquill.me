@@ -1,0 +1,229 @@
+html, body {
+}
+#container{
+  position: auto;
+  display: block;
+}
+
+#Header {
+  width: 100%;
+  float: right;
+  padding: 10px;
+  background-color: #f2f5f9;
+  top: 0px;
+  border-bottom: 10px solid black;
+  display: inline;
+}
+
+#Header-title{
+  font-family: 'Tisa', sans-serif;
+  font-size: 50px;
+  color: black;
+  font-weight: 50px;
+  padding: 5px;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#button-area {
+    float: right;
+    display: flex;
+}
+
+#button-area a {
+  font-family: 'Tisa', sans-serif;
+  margin: 50px;
+  margin-top: 10px;
+  color: black;
+  padding: 5px;
+  font-weight: 600;
+  text-decoration: none;
+}
+#button-area a:hover {
+  color: #798dad;
+}
+
+.dropdown-container {
+  height: auto;
+  width: 90%;
+  background-color: #f2f5f9 ; // make it a little darker
+  float: left;
+  margin-left: 5%;
+  margin-top: 5%;
+  border: 10px solid black;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dropdown-container:hover {
+  color: #798dad;
+}
+
+.dropdown-slide{
+  display: none;
+}
+
+#Past-Projects{
+  font-family: 'Tisa', sans-serif;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  margin-top: 0px;
+}
+
+#container-1{
+  position: auto;
+  background-color: #c7cfdb;
+  height: auto;
+  min-width: 800px;
+}
+
+#test-area{
+  margin-top: 25px;
+  margin-bottom: 75px;
+}
+
+#container-1-box1 a{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-family: 'Tisa', sans-serif;
+  color: #798dad;
+  text-decoration: none;
+}
+
+#container-1-box1 a:hover {
+  color: #5f6775;
+}
+
+#container-1-box2 p{
+  margin-top: 20px;
+}
+
+#lesson-area{
+  margin-top: 25px;
+  display: inline-block;
+  margin-bottom: 75px;
+}
+
+#container-1-box2 a{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-family: 'Tisa', sans-serif;
+  color: #798dad;
+  text-decoration: none;
+}
+
+#container-1-box2 a:hover {
+  color: #5f6775;
+}
+
+#personal-container{
+  margin-bottom: 50px;
+}
+
+/* #container-1-box3-starter{
+  width: 90%;
+  height: 100px;
+  background-color: #f2f5f9; // make it a little darker
+  float: left;
+  margin-left: 5%;
+  margin-top: 5%;
+  border: 10px solid black;
+  text-align: center;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#container-1-box3{
+  width: 90%;
+  height: 300px;
+  background-color: #f2f5f9; // make it a little darker
+  float: left;
+  margin-left: 5%;
+  margin-top: 5%;
+  border: 10px solid black;
+  text-align: center;
+  margin-bottom: 50px;
+} */
+
+#santa-area{
+  /* margin-top: 40px; */
+  margin-top: 25px;
+  margin-bottom: 75px;
+}
+
+#container-1-box3 a{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-family: 'Tisa', sans-serif;
+  color: #798dad;
+  text-decoration: none;
+}
+
+#container-1-box3 a:hover {
+  color: #5f6775;
+}
+
+#footer-button-area a {
+  font-family: 'Tisa', sans-serif;
+  color: #39465b;
+  margin: 50px;
+  margin-top: 10px;
+  color: black;
+  padding: 5px;
+  font-weight: 600;
+  vertical-align: center;
+  text-decoration: none;
+}
+
+#footer-button-area a:hover {
+  color: #798dad;
+}
+
+#footer-button-area{
+  margin-top: 30px;
+  vertical-align: center
+}
+
+#footer{
+  border-top: 10px solid black;
+  width: 100%;
+  float: right;
+  padding: 10px;
+  min-height: 100px;
+  background-color: #f2f5f9;
+  position: auto;
+  bottom: 0px;
+  display: inline;
+  text-align: center;
+}
+
+#footer-images{
+  display: inline;
+}
+
+#footer-images a{
+  vertical-align: center;
+  margin: 50px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+#Gimg{
+  color: black;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+#Gitimg{
+  color: black;
+  margin-top: 10px;
+  padding: 5px;
+}
